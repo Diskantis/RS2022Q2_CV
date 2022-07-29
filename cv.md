@@ -8,6 +8,8 @@
 **Discord:** Mikhail Zajkov(@diskantis)\
 **Telegram:** https://t.me/ZajkovMikhail \
 **GitHub:** https://github.com/Diskantis
+
+
 ***
 
 
@@ -25,6 +27,8 @@ It is important for me to maintain the feeling that all the most interesting thi
 * Teamwork
 * Life experience
 * The desire to study
+
+
 ***
 
 
@@ -43,6 +47,8 @@ It is important for me to maintain the feeling that all the most interesting thi
 - SQLite (basic knowledge)
 - PyQt5
 - PyCharm community.
+
+
 ***
 
 
@@ -60,6 +66,8 @@ function century(year) {
     }
 }
 ```
+
+
 ***
 
 
@@ -69,6 +77,8 @@ function century(year) {
 * **Courses:**\
     «Programming in Python» [stepik.org](https://stepik.org/course/67/syllabus?auth=login) \
     «SAP Development Basics» EPAM UpSkill Lab [learn.epam.com](https://learn.epam.com)
+
+
 ***
 
 
