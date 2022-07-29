@@ -2,12 +2,12 @@
 
 
 ### Contact information:
-**Location:** Minsk, Belarus\
-**Phone:** +375 29 773 96 00\
-**Email:** mn.zajkov@gmail.com\
-**Discord:** Mikhail Zajkov(@diskantis)\
-**Telegram:** https://t.me/ZajkovMikhail \
-**GitHub:** https://github.com/Diskantis
+**Location:** Minsk, Belarus  
+**Phone:** +375 29 773 96 00  
+**Email:** mn.zajkov@gmail.com  
+**Discord:** Mikhail Zajkov(@diskantis)  
+**Telegram:** https://t.me/ZajkovMikhail  
+**GitHub:** https://github.com/Diskantis  
 
 
 ***
@@ -26,7 +26,7 @@ It is important for me to maintain the feeling that all the most interesting thi
 * Dedication to work
 * Teamwork
 * Life experience
-* The desire to study
+* The desire to study  
 
 
 ***
@@ -74,8 +74,8 @@ function century(year) {
 ### Education:
 
 
-* **Courses:**\
-    «Programming in Python» [stepik.org](https://stepik.org/course/67/syllabus?auth=login) \
+* **Courses:**  
+    «Programming in Python» [stepik.org](https://stepik.org/course/67/syllabus?auth=login)  
     «SAP Development Basics» EPAM UpSkill Lab [learn.epam.com](https://learn.epam.com)
 
 
@@ -85,5 +85,5 @@ function century(year) {
 ### Languages:
 
 
-**Russian** - native speaker.\
+**Russian** - native speaker.  
 **English** – A1 in process…
