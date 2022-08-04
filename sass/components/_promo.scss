@@ -1,0 +1,47 @@
+.promo {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.promo__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42%;
+  background-color: #232325;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.promo__image {
+  position: absolute;
+  width: 80%;
+}
+
+.promo__content {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  vertical-align: center;
+  width: 58%;
+  height: 400px;
+
+  align-items: center;
+}
+
+.promo__title {
+  justify-content: center;
+  width: 100%;
+  color: $color-light;
+  text-transform: uppercase;
+  margin: 125px 0 5px;
+}
+
+.promo__text {
+  width: 100%;
+  text-align: center;
+  color: $color-light;
+  @extend %font-secondary;
+  @include font($size: 4.4rem, $height: 4.4rem, $weight: 600);
+  margin: 5px 0 125px;
+}

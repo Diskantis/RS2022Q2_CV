@@ -1,0 +1,50 @@
+.contact h2 {
+  margin: 0 0 15px;
+}
+
+.contact_header {
+  @include font($size: 1.6rem, $height: 2.1rem, $weight: 600);
+  margin-right: 10px;
+}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+
+.contact__location {
+  background-image: url("../../img/icons/map.svg");
+}
+
+.contact__phone {
+  background-image: url("../../img/icons/phone.svg");
+}
+
+.contact__email {
+  background-image: url("../../img/icons/email.svg");
+}
+
+.contact__discord {
+  background-image: url("../../img/icons/discord.svg");
+}
+
+.contact__telegram {
+  background-image: url("../../img/icons/telegram.svg");
+}
+
+.contact__git {
+  background-image: url("../../img/icons/github.svg");
+}
+
+.contact__phone a, .contact__email a, .contact__discord a, .contact__telegram a, .contact__git a {
+  color: $color-light;
+  text-decoration-line: none;
+  cursor: pointer;
+}
+

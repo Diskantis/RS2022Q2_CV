@@ -2,10 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>CV</title>
+    <title>CV Mikhail Zajkov</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sass/style.css">
 </head>
 <body>
-
+<header class="header">
+    <nav class="header__navigation">
+        <ul class="navigation">
+            <li class="navigation__link"><a href="#anchor-1">Contact</a></li>
+            <li class="navigation__link"><a href="#anchor-2">About Me</a></li>
+            <li class="navigation__link"><a href="#anchor-3">Skills</a></li>
+            <li class="navigation__link"><a href="#anchor-4">Code</a></li>
+            <li class="navigation__link"><a href="#anchor-5">Education</a></li>
+            <li class="navigation__link"><a href="#anchor-6">Languages</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="promo">
+        <span class="promo__photo"><img class="promo__image" src="./img/profile-photo.png" alt="photo_Mikhail Zajkov"></span>
+        <div class="promo__content">
+            <h1 class="promo__title">Mikhail Zajkov</h1>
+            <p class="promo__text">Future Front-End Developer</p>
+        </div>
+    </section>
+    <aside class="aside">
+        <section id="anchor-1" class="contact">
+            <h2>Contact information:</h2>
+            <ul class="contact__content">
+                <li class="contact__item contact__location"><spam class="contact_header">Location:</spam> Minsk, Belarus</li>
+                <li class="contact__item contact__phone"><spam class="contact_header">Phone:</spam><a href="tel:+375297739600" target="_blank">+375 29 773 96 00</a></li>
+                <li class="contact__item contact__email"><spam class="contact_header">Email:</spam><a href="mailto:mn.zajkov@gmail.com" target="_blank">mn.zajkov@gmail.com</a></li>
+                <li class="contact__item contact__discord"><spam class="contact_header">Discord:</spam><a href="https://discord.com" target="_blank">Mikhail Zajkov(@diskantis)</a></li>
+                <li class="contact__item contact__telegram"><spam class="contact_header">Telegram:</spam><a href="https://t.me/ZajkovMikhail" target="_blank">https://t.me/ZajkovMikhail</a></li>
+                <li class="contact__item contact__git"><spam class="contact_header">GitHub:</spam><a href="https://github.com/Diskantis" target="_blank">https://github.com/Diskantis</a></li>
+            </ul>
+        </section>
+        <section id="anchor-3" class="skills">
+            <h2>Skills and Proficiency:</h2>
+            <ul>
+                <li>RSSchool JS/FE Pre-School 2022Q2:
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS (Preprocessor SCSS)</li>
+                        <li>JavaScript (Basic)</li>
+                        <li>Git</li>
+                        <li>Figma (for web development)</li>
+                        <li>VSCode, WebStorm</li>
+                    </ul>
+                </li>
+                <li>SAP (basic knowledge)</li>
+                <li>Python (basic knowledge)</li>
+                <li>SQLite (basic knowledge)</li>
+                <li>PyQt5</li>
+                <li>PyCharm community</li>
+            </ul>
+        </section>
+        <section id="anchor-6" class="languages">
+            <h2>Languages:</h2>
+            <p>Russian - native speaker.</p>
+            <p>English – A1 in process…</p>
+        </section>
+    </aside>
+    <div class="main">
+        <section id="anchor-2" class="about">
+            <h2>About Me:</h2>
+            <p class="about-text">I’m 47. I work as leading engineer for television equipment. I have great desire to change my life. I want to study and develop, to gain new knowledge’s and skills and to try myself in something new, previously incomprehensible and mysterious for me. It is important for me to maintain the feeling that all the most interesting things are yet to come. I often spend a lot of time doing what I’m interested in. I like frontend development for the opportunity to immediately see the fruits of their labor. I want to gain knowledge and skills that will be enough for employment in a new field of activity for me.</p>
+        </section>
+        <section id="anchor-4" class="code">
+            <h2>Code Examples:</h2>
+            <div>
+                <pre class="code__pre">
+                    <code class="code-bg func">
+    <span>function<span class="func-name"> century</span><span class="func-content">(year) {</span></span>
+    <span>    if<span class="func-content"> (year % </span><span class="func-var">100</span><span class="func-content"> === </span><span class="func-var">0</span><span class="func-content">) {</span></span>
+    <span>        return<span class="func-content"> year / </span><span class="func-var">100</span></span>
+    <span class="func-content">    } <span class="func">else if </span><span>(year < </span><span class="func-var">100</span><span class="func-content">) {</span></span>
+    <span>        return <span>1</span><span>;</span></span>
+    <span class="func-content">    } <span class="func">else</span><span> {</span></span>
+    <span>        return <span class="func-dll">Math</span><span>.</span><span class="func-method">floor</span><span class="func-content">(year / </span><span class="func-var">100</span><span class="func-content">) + </span><span class="func-var">1</span><span>;</span></span>
+    <span class="func-content">    }</span>
+    <span class="func-content">}</span>
+                    </code>
+                </pre>
+            </div>
+        </section>
+        <section id="anchor-5" class="education">
+            <h2>Education:</h2>
+            <ul>Courses:
+                <li>«Programming in Python» stepik.org</li>
+                <li>«SAP Development Basics» EPAM UpSkill Lab learn.epam.com</li>
+            </ul>
+        </section>
+    </div>
+</main>
+<footer class="footer">
+    <div></div>
+</footer>
 </body>
 </html>

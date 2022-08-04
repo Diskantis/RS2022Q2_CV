@@ -1,0 +1,36 @@
+html {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+  color: $color-light;
+  background-color: #383838;
+  @extend %font-primary;
+  @include font($size: 1.6rem, $height: 2.1rem, $weight: 300);
+}
+
+h1 {
+  @extend %font-secondary;
+  @include font($size: 9.0rem, $height: 9.0rem, $weight: 700);
+}
+
+h2 {
+  color: $color-hover;
+  @extend %font-primary;
+  @include font($size: 2.4rem, $height: 2.4rem, $weight: 600);
+}
+
+.main {
+  width: 100%;
+}
+
+.aside {
+  width: 30%;
+  float: left;
+}
+
