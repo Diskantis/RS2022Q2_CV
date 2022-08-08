@@ -505,13 +505,19 @@ h2 {
 }
 
 .footer__logo {
+  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
+.footer__logo a {
+  display: flex;
+}
+
 .logo-school {
-  width: 50%;
+  height: 65px;
+  cursor: pointer;
 }
 
 .promo {
@@ -579,27 +585,27 @@ h2 {
 }
 
 .contact__location {
-  background-image: url("../../img/icons/map.svg");
+  background-image: url("../../img/icons/cont-map.svg");
 }
 
 .contact__phone {
-  background-image: url("../../img/icons/phone.svg");
+  background-image: url("../../img/icons/cont-phone.svg");
 }
 
 .contact__email {
-  background-image: url("../../img/icons/email.svg");
+  background-image: url("../../img/icons/cont-email.svg");
 }
 
 .contact__discord {
-  background-image: url("../../img/icons/discord.svg");
+  background-image: url("../../img/icons/cont-discord.svg");
 }
 
 .contact__telegram {
-  background-image: url("../../img/icons/telegram.svg");
+  background-image: url("../../img/icons/cont-telegram.svg");
 }
 
 .contact__git {
-  background-image: url("../../img/icons/github.svg");
+  background-image: url("../../img/icons/cont-github.svg");
 }
 
 .contact__phone a, .contact__email a, .contact__discord a, .contact__telegram a, .contact__git a {

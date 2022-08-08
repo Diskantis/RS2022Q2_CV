@@ -8,11 +8,17 @@
 }
 
 .footer__logo {
+  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
+.footer__logo a {
+  display: flex;
+}
+
 .logo-school {
-  width: 50%;
+  height: 65px;
+  cursor: pointer;
 }
