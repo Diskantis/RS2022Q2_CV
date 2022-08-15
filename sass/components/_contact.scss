@@ -18,31 +18,31 @@
   margin-bottom: 10px;
 }
 
-.contact__location {
+.contact_location {
   background-image: url("../../img/icons/cont-map.svg");
 }
 
-.contact__phone {
+.contact_phone {
   background-image: url("../../img/icons/cont-phone.svg");
 }
 
-.contact__email {
+.contact_email {
   background-image: url("../../img/icons/cont-email.svg");
 }
 
-.contact__discord {
+.contact_discord {
   background-image: url("../../img/icons/cont-discord.svg");
 }
 
-.contact__telegram {
+.contact_telegram {
   background-image: url("../../img/icons/cont-telegram.svg");
 }
 
-.contact__git {
+.contact_git {
   background-image: url("../../img/icons/cont-github.svg");
 }
 
-.contact__phone a, .contact__email a, .contact__discord a, .contact__telegram a, .contact__git a {
+.contact_phone a, .contact_email a, .contact_discord a, .contact_telegram a, .contact_git a {
   color: $color-light;
   text-decoration-line: none;
   cursor: pointer;

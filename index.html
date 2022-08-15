@@ -35,48 +35,53 @@
         <section id="anchor-1" class="contact">
             <h2>Contact information:</h2>
             <ul class="contact__content">
-                <li class="contact__item contact__location"><spam class="contact_header">Location:</spam> Minsk, Belarus</li>
-                <li class="contact__item contact__phone"><spam class="contact_header">Phone:</spam><a href="tel:+375297739600" target="_blank">+375 29 773 96 00</a></li>
-                <li class="contact__item contact__email"><spam class="contact_header">Email:</spam><a href="mailto:mn.zajkov@gmail.com" target="_blank">mn.zajkov@gmail.com</a></li>
-                <li class="contact__item contact__discord"><spam class="contact_header">Discord:</spam><a href="https://discord.com" target="_blank">Mikhail Zajkov(@diskantis)</a></li>
-                <li class="contact__item contact__telegram"><spam class="contact_header">Telegram:</spam><a href="https://t.me/ZajkovMikhail" target="_blank">https://t.me/ZajkovMikhail</a></li>
-                <li class="contact__item contact__git"><spam class="contact_header">GitHub:</spam><a href="https://github.com/Diskantis" target="_blank">https://github.com/Diskantis</a></li>
+                <li class="contact__item contact_location"><spam class="contact_header">Location:</spam> Minsk, Belarus</li>
+                <li class="contact__item contact_phone"><spam class="contact_header">Phone:</spam><a href="tel:+375297739600" target="_blank">+375 29 773 96 00</a></li>
+                <li class="contact__item contact_email"><spam class="contact_header">Email:</spam><a href="mailto:mn.zajkov@gmail.com" target="_blank">mn.zajkov@gmail.com</a></li>
+                <li class="contact__item contact_discord"><spam class="contact_header">Discord:</spam><a href="https://discord.com" target="_blank">Mikhail Zajkov(@diskantis)</a></li>
+                <li class="contact__item contact_telegram"><spam class="contact_header">Telegram:</spam><a href="https://t.me/ZajkovMikhail" target="_blank">https://t.me/ZajkovMikhail</a></li>
+                <li class="contact__item contact_git"><spam class="contact_header">GitHub:</spam><a href="https://github.com/Diskantis" target="_blank">https://github.com/Diskantis</a></li>
             </ul>
         </section>
         <section id="anchor-3" class="skills">
             <h2>Skills and Proficiency:</h2>
-            <ul>
-                <li>RSSchool JS/FE Pre-School 2022Q2:
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS (Preprocessor SCSS)</li>
-                        <li>JavaScript (Basic)</li>
-                        <li>Git</li>
-                        <li>Figma (for web development)</li>
-                        <li>VSCode, WebStorm</li>
-                    </ul>
-                </li>
-                <li>SAP (basic knowledge)</li>
-                <li>Python (basic knowledge)</li>
-                <li>SQLite (basic knowledge)</li>
-                <li>PyQt5</li>
-                <li>PyCharm community</li>
+            <ul class="skills__content">
+                <li class="skills__item skills_rs-school"><spam>RSSchool JS/FE Pre-School 2022Q2:</spam></li>
+                <ul class="skills-rs__content">
+                    <li class="skills__item skills_html"><spam>HTML</spam></li>
+                    <li class="skills__item skills_css"><spam>CSS (Preprocessor SCSS)</spam></li>
+                    <li class="skills__item skills_javascript"><span>JavaScript (Basic)</span></li>
+                    <li class="skills__item skills_git"><span>Git</span></li>
+                    <li class="skills__item skills_figma"><span>Figma (for web development)</span></li>
+                    <li class="skills__item skills_vscode"><span>VSCode</span></li>
+                    <li class="skills__item skills_webstorm"><span>WebStorm</span></li>
+                </ul>
+                <li class="skills__item skills_sap">SAP (basic knowledge)</li>
+                <li class="skills__item skills_python">Python (basic knowledge)</li>
+                <li class="skills__item skills_sqlite">SQLite (basic knowledge)</li>
+                <li class="skills__item skills_pyqt">PyQt5</li>
+                <li class="skills__item skills_pycharm">PyCharm community</li>
             </ul>
-        </section>
-        <section id="anchor-6" class="languages">
-            <h2>Languages:</h2>
-            <p>Russian - native speaker.</p>
-            <p>English – A1 in process…</p>
         </section>
     </aside>
     <div class="main">
         <section id="anchor-2" class="about">
             <h2>About Me:</h2>
             <p class="about-text">I’m 47. I work as leading engineer for television equipment. I have great desire to change my life. I want to study and develop, to gain new knowledge’s and skills and to try myself in something new, previously incomprehensible and mysterious for me. It is important for me to maintain the feeling that all the most interesting things are yet to come. I often spend a lot of time doing what I’m interested in. I like frontend development for the opportunity to immediately see the fruits of their labor. I want to gain knowledge and skills that will be enough for employment in a new field of activity for me.</p>
+            <span class="about__content">My strength:</span>
+            <div class="about__wrap">
+                <ul>
+                    <li class="about__item"><span>Responsible person</span></li>
+                    <li class="about__item"><span>Dedication to work</span></li>
+                    <li class="about__item"><span>Teamwork</span></li>
+                    <li class="about__item"><span>Life experience</span></li>
+                    <li class="about__item"><span>The desire to study</span></li>
+                </ul>
+            </div>
         </section>
         <section id="anchor-4" class="code">
             <h2>Code Examples:</h2>
-            <div>
+            <div class="code__block">
                 <pre class="code__pre">
                     <code class="code-bg func">
     <span>function<span class="func-name"> century</span><span class="func-content">(year) {</span></span>
@@ -94,9 +99,17 @@
         </section>
         <section id="anchor-5" class="education">
             <h2>Education:</h2>
-            <ul>Courses:
-                <li>«Programming in Python» stepik.org</li>
-                <li>«SAP Development Basics» EPAM UpSkill Lab learn.epam.com</li>
+            <span class="education__title">Courses:</span>
+            <ul class="education__content">
+                <li class="education__item"><span>«SAP Development Basics» – EPAM UpSkill LAB: </span><a href="https://learn.epam.com">learn.epam.com</a></li>
+                <li class="education__item"><span>«Programming in Python» – STEPIK: </span><a href="https://stepik.org/course/67/syllabus?auth=login">stepik.org</a></li>
+            </ul>
+        </section>
+        <section id="anchor-6" class="languages">
+            <h2>Languages:</h2>
+            <ul class="languages__content">
+                <li><span class="languages_header">Russian</span><span> – native speaker.</span></li>
+                <li><span class="languages_header">English</span><span> – A1 in process…</span></li>
             </ul>
         </section>
     </div>

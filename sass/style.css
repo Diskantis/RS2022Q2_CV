@@ -516,7 +516,7 @@ h2 {
 }
 
 .logo-school {
-  height: 65px;
+  height: 35px;
   cursor: pointer;
 }
 
@@ -584,46 +584,144 @@ h2 {
   margin-bottom: 10px;
 }
 
-.contact__location {
+.contact_location {
   background-image: url("../../img/icons/cont-map.svg");
 }
 
-.contact__phone {
+.contact_phone {
   background-image: url("../../img/icons/cont-phone.svg");
 }
 
-.contact__email {
+.contact_email {
   background-image: url("../../img/icons/cont-email.svg");
 }
 
-.contact__discord {
+.contact_discord {
   background-image: url("../../img/icons/cont-discord.svg");
 }
 
-.contact__telegram {
+.contact_telegram {
   background-image: url("../../img/icons/cont-telegram.svg");
 }
 
-.contact__git {
+.contact_git {
   background-image: url("../../img/icons/cont-github.svg");
 }
 
-.contact__phone a, .contact__email a, .contact__discord a, .contact__telegram a, .contact__git a {
+.contact_phone a, .contact_email a, .contact_discord a, .contact_telegram a, .contact_git a {
   color: #ffffff;
   text-decoration-line: none;
   cursor: pointer;
 }
 
 .about {
-  margin-bottom: 86px;
+  margin-bottom: 23px;
 }
 
 .about-text {
-  line-height: 2;
+  line-height: 1.6;
+}
+
+.about__content {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  margin: 0;
+}
+
+.about__wrap ul {
+  width: 800px;
+  column-count: 3;
+  list-style-type: disc;
+}
+
+.about__item {
+  margin-left: 30px;
+}
+
+.skills__content {
+  display: block;
+}
+
+.skills-rs__content {
+  margin-left: 40px;
+}
+
+.skills__item {
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+
+.skills_rs-school {
+  background-image: url("../../img/icons/skill-rsschool.png");
+}
+
+.skills_html {
+  background-image: url("../../img/icons/skill-html.svg");
+}
+
+.skills_css {
+  background-image: url("../../img/icons/skill-css.svg");
+}
+
+.skills_javascript {
+  background-image: url("../../img/icons/skill-javascript.svg");
+}
+
+.skills_git {
+  background-image: url("../../img/icons/cont-github.svg");
+}
+
+.skills_figma {
+  background-image: url("../../img/icons/skill-figma.svg");
+}
+
+.skills_vscode {
+  background-image: url("../../img/icons/skill-vscode.svg");
+}
+
+.skills_webstorm {
+  background-image: url("../../img/icons/skill-webstorm.svg");
+}
+
+.skills_sap {
+  background-image: url("../../img/icons/skill-sap.svg");
+}
+
+.skills_python {
+  background-image: url("../../img/icons/skill-python.svg");
+}
+
+.skills_sqlite {
+  background-image: url("../../img/icons/skill-sqlite.jpg");
+}
+
+.skills_pyqt {
+  min-height: 33px;
+  background-image: url("../../img/icons/skill-pyqt.svg");
+}
+
+.skills_pycharm {
+  background-image: url("../../img/icons/skill-pycharm.svg");
 }
 
 .code h2 {
   margin: 0;
+}
+
+.code__block {
+  margin-bottom: -20px;
 }
 
 .code__pre {
@@ -660,8 +758,32 @@ h2 {
   color: #F4CE4F;
 }
 
-.education {
-  margin: -21px 0 0 0;
+.education__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+}
+
+.education ul {
+  margin-left: 470px;
+  margin-bottom: 25px;
+  list-style-type: disc;
+}
+
+.education__item a {
+  color: #ffffff;
+}
+
+.languages__content {
+  margin-left: 30px;
+}
+
+.languages_header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

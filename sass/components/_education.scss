@@ -1,3 +1,12 @@
-.education {
-  margin: -21px 0 0 0;
+.education__title {
+  @include font($size: 1.6rem, $height: 2.1rem, $weight: 600);
+}
+.education ul {
+  margin-left: 470px;
+  margin-bottom: 25px;
+  list-style-type: disc;
+}
+
+.education__item a {
+  color: $color-light;
 }

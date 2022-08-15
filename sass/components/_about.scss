@@ -1,7 +1,22 @@
 .about {
-  margin-bottom: 86px;
+  margin-bottom: 23px;
 }
 
 .about-text {
-  line-height: 2;
+  line-height: 1.6;
+}
+
+.about__content {
+  @include font($size: 1.6rem, $height: 2.1rem, $weight: 600);
+  margin: 0;
+}
+
+.about__wrap ul {
+  width: 800px;
+  column-count: 3;
+  list-style-type: disc;
+}
+
+.about__item {
+  margin-left: 30px;
 }
