@@ -3,6 +3,7 @@
 }
 
 .contact_header {
+  width: 85px;
   @include font($size: 1.6rem, $height: 2.1rem, $weight: 600);
   margin-right: 10px;
 }
@@ -42,7 +43,7 @@
   background-image: url("../../img/icons/cont-github.svg");
 }
 
-.contact_phone a, .contact_email a, .contact_discord a, .contact_telegram a, .contact_git a {
+.contact_location a, .contact_phone a, .contact_email a, .contact_discord a, .contact_telegram a, .contact_git a {
   color: $color-light;
   text-decoration-line: none;
   cursor: pointer;

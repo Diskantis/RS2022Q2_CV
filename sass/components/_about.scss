@@ -1,5 +1,5 @@
 .about {
-  margin-bottom: 23px;
+  margin-bottom: 14px;
 }
 
 .about-text {
@@ -15,6 +15,8 @@
   width: 800px;
   column-count: 3;
   list-style-type: disc;
+  line-height: 1.6;
+  margin-bottom: 0;
 }
 
 .about__item {

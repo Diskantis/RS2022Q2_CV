@@ -24,7 +24,7 @@
 <main>
     <section class="promo">
         <div class="promo__photo">
-            <img class="promo__image" src="./img/profile-photo.png" alt="photo_Mikhail Zajkov">
+            <img class="promo__image" src="./img/profile-photo.png" alt="photo Mikhail Zajkov">
         </div>
         <div class="promo__content">
             <h1 class="promo__title">Mikhail Zajkov</h1>
@@ -35,27 +35,29 @@
         <section id="anchor-1" class="contact">
             <h2>Contact information:</h2>
             <ul class="contact__content">
-                <li class="contact__item contact_location"><spam class="contact_header">Location:</spam> Minsk, Belarus</li>
-                <li class="contact__item contact_phone"><spam class="contact_header">Phone:</spam><a href="tel:+375297739600" target="_blank">+375 29 773 96 00</a></li>
-                <li class="contact__item contact_email"><spam class="contact_header">Email:</spam><a href="mailto:mn.zajkov@gmail.com" target="_blank">mn.zajkov@gmail.com</a></li>
-                <li class="contact__item contact_discord"><spam class="contact_header">Discord:</spam><a href="https://discord.com" target="_blank">Mikhail Zajkov(@diskantis)</a></li>
-                <li class="contact__item contact_telegram"><spam class="contact_header">Telegram:</spam><a href="https://t.me/ZajkovMikhail" target="_blank">https://t.me/ZajkovMikhail</a></li>
-                <li class="contact__item contact_git"><spam class="contact_header">GitHub:</spam><a href="https://github.com/Diskantis" target="_blank">https://github.com/Diskantis</a></li>
+                <li class="contact__item contact_location"><span class="contact_header">Location:</span><a href="https://www.google.com/maps/@53.88464,27.5933684,11z" target="_blank"> Minsk, Belarus</a></li>
+                <li class="contact__item contact_phone"><span class="contact_header">Phone:</span><a href="tel:+375297739600" target="_blank">+375 29 773 96 00</a></li>
+                <li class="contact__item contact_email"><span class="contact_header">Email:</span><a href="mailto:mn.zajkov@gmail.com" target="_blank">mn.zajkov@gmail.com</a></li>
+                <li class="contact__item contact_discord"><span class="contact_header">Discord:</span><a href="https://discord.com" target="_blank">Mikhail Zajkov(@diskantis)</a></li>
+                <li class="contact__item contact_telegram"><span class="contact_header">Telegram:</span><a href="https://t.me/ZajkovMikhail" target="_blank">https://t.me/ZajkovMikhail</a></li>
+                <li class="contact__item contact_git"><span class="contact_header">GitHub:</span><a href="https://github.com/Diskantis" target="_blank">https://github.com/Diskantis</a></li>
             </ul>
         </section>
         <section id="anchor-3" class="skills">
             <h2>Skills and Proficiency:</h2>
-            <ul class="skills__content">
-                <li class="skills__item skills_rs-school"><spam>RSSchool JS/FE Pre-School 2022Q2:</spam></li>
+            <div class="skills__item skills_rs-school">
+                <span>RSSchool JS/FE Pre-School 2022Q2:</span>
+            </div>
                 <ul class="skills-rs__content">
-                    <li class="skills__item skills_html"><spam>HTML</spam></li>
-                    <li class="skills__item skills_css"><spam>CSS (Preprocessor SCSS)</spam></li>
+                    <li class="skills__item skills_html"><span>HTML</span></li>
+                    <li class="skills__item skills_css"><span>CSS (Preprocessor SCSS)</span></li>
                     <li class="skills__item skills_javascript"><span>JavaScript (Basic)</span></li>
                     <li class="skills__item skills_git"><span>Git</span></li>
                     <li class="skills__item skills_figma"><span>Figma (for web development)</span></li>
                     <li class="skills__item skills_vscode"><span>VSCode</span></li>
                     <li class="skills__item skills_webstorm"><span>WebStorm</span></li>
                 </ul>
+            <ul class="skills__content">
                 <li class="skills__item skills_sap">SAP (basic knowledge)</li>
                 <li class="skills__item skills_python">Python (basic knowledge)</li>
                 <li class="skills__item skills_sqlite">SQLite (basic knowledge)</li>
@@ -83,16 +85,16 @@
             <h2>Code Examples:</h2>
             <div class="code__block">
                 <pre class="code__pre">
-                    <code class="code-bg func">
-    <span>function<span class="func-name"> century</span><span class="func-content">(year) {</span></span>
-    <span>    if<span class="func-content"> (year % </span><span class="func-var">100</span><span class="func-content"> === </span><span class="func-var">0</span><span class="func-content">) {</span></span>
-    <span>        return<span class="func-content"> year / </span><span class="func-var">100</span></span>
-    <span class="func-content">    } <span class="func">else if </span><span>(year < </span><span class="func-var">100</span><span class="func-content">) {</span></span>
-    <span>        return <span>1</span><span>;</span></span>
-    <span class="func-content">    } <span class="func">else</span><span> {</span></span>
-    <span>        return <span class="func-dll">Math</span><span>.</span><span class="func-method">floor</span><span class="func-content">(year / </span><span class="func-var">100</span><span class="func-content">) + </span><span class="func-var">1</span><span>;</span></span>
-    <span class="func-content">    }</span>
-    <span class="func-content">}</span>
+                    <code class="code-bg">
+    <span class="func">function</span> <span class="func-name">century</span>(year) {
+    <span class="func">    if</span> (year % <span class="func-var">100</span> === <span class="func-var">0</span>) {
+    <span class="func">        return</span> year / <span class="func-var">100</span>
+        } <span class="func">else if</span> (year &lt; <span class="func-var">100</span>) {
+    <span class="func">        return </span><span class="func-var">1</span>;
+        } <span class="func">else</span> {
+    <span class="func">        return </span><span class="func-dll">Math</span>.<span class="func-method">floor</span>(year / <span class="func-var">100</span>) + <span class="func-var">1</span>;
+        }
+    }
                     </code>
                 </pre>
             </div>
@@ -116,11 +118,13 @@
 </main>
 <footer class="footer">
     <div class="footer__logo">
+        <a class="year_left" href="https://github.com/Diskantis" target="_blank"><img class="logo-git" src="img/my-github.svg" alt="logo GitHub"></a>
         <a href="https://rs.school/" target="_blank"><img class="logo-school" src="img/icons/logo-rsschool.svg" alt="logo RS School"></a>
         <a href="https://www.epam.com" target="_blank"><img class="logo-school" src="img/icons/logo-epam.svg" alt="logo EPAM"></a>
         <a href="https://learn.epam.com/start" target="_blank"><img class="logo-school" src="img/icons/logo-learn.svg" alt="logo Learn Digital Platform EPAM"></a>
         <a href="https://training.by" target="_blank"><img class="logo-school" src="img/icons/logo-training-center.svg" alt="logo Training Center EPAM"></a>
         <a href="https://teach.stepik.org/" target="_blank"><img class="logo-school" src="img/icons/logo-stepik.svg" alt="logo Stepik"></a>
+        <span class="year_right">2022</span>
     </div>
 </footer>
 </body>

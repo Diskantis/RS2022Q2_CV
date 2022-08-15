@@ -8,10 +8,21 @@
 }
 
 .footer__logo {
-  width: 80%;
+  width: 97%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.year_left {
+  width: 50px;
+  height: 50px;
+}
+
+.year_right {
+  color: black;
+  @extend %font-primary;
+  @include font($size: 3.4rem, $height: 3.4rem, $weight: 700);
 }
 
 .footer__logo a {

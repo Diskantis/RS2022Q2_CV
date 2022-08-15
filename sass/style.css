@@ -405,7 +405,7 @@ section, main, footer, header, article {
   box-sizing: border-box;
 }
 
-h2, body {
+.year_right, h2, body {
   font-family: Montserrat, Verdana, sans-serif;
 }
 
@@ -505,10 +505,23 @@ h2 {
 }
 
 .footer__logo {
-  width: 80%;
+  width: 97%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.year_left {
+  width: 50px;
+  height: 50px;
+}
+
+.year_right {
+  color: black;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.4rem;
+  line-height: 3.4rem;
 }
 
 .footer__logo a {
@@ -566,6 +579,7 @@ h2 {
 }
 
 .contact_header {
+  width: 85px;
   font-style: normal;
   font-weight: 600;
   font-size: 1.6rem;
@@ -608,14 +622,14 @@ h2 {
   background-image: url("../../img/icons/cont-github.svg");
 }
 
-.contact_phone a, .contact_email a, .contact_discord a, .contact_telegram a, .contact_git a {
+.contact_location a, .contact_phone a, .contact_email a, .contact_discord a, .contact_telegram a, .contact_git a {
   color: #ffffff;
   text-decoration-line: none;
   cursor: pointer;
 }
 
 .about {
-  margin-bottom: 23px;
+  margin-bottom: 14px;
 }
 
 .about-text {
@@ -634,6 +648,8 @@ h2 {
   width: 800px;
   column-count: 3;
   list-style-type: disc;
+  line-height: 1.6;
+  margin-bottom: 0;
 }
 
 .about__item {
@@ -742,10 +758,6 @@ h2 {
   color: #72737A;
 }
 
-.func-content {
-  color: #ffffff;
-}
-
 .func-var {
   color: #5191A6;
 }
@@ -767,8 +779,9 @@ h2 {
 
 .education ul {
   margin-left: 470px;
-  margin-bottom: 25px;
+  margin-bottom: 22px;
   list-style-type: disc;
+  line-height: 1.6;
 }
 
 .education__item a {
@@ -777,6 +790,7 @@ h2 {
 
 .languages__content {
   margin-left: 30px;
+  line-height: 1.6;
 }
 
 .languages_header {
