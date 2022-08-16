@@ -599,27 +599,27 @@ h2 {
 }
 
 .contact_location {
-  background-image: url("../../img/icons/cont-map.svg");
+  background-image: url("../img/icons/cont-map.svg");
 }
 
 .contact_phone {
-  background-image: url("../../img/icons/cont-phone.svg");
+  background-image: url("../img/icons/cont-phone.svg");
 }
 
 .contact_email {
-  background-image: url("../../img/icons/cont-email.svg");
+  background-image: url("../img/icons/cont-email.svg");
 }
 
 .contact_discord {
-  background-image: url("../../img/icons/cont-discord.svg");
+  background-image: url("../img/icons/cont-discord.svg");
 }
 
 .contact_telegram {
-  background-image: url("../../img/icons/cont-telegram.svg");
+  background-image: url("../img/icons/cont-telegram.svg");
 }
 
 .contact_git {
-  background-image: url("../../img/icons/cont-github.svg");
+  background-image: url("../img/icons/cont-github.svg");
 }
 
 .contact_location a, .contact_phone a, .contact_email a, .contact_discord a, .contact_telegram a, .contact_git a {
