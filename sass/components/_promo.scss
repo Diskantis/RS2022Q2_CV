@@ -37,3 +37,20 @@
 }
 
 
+.promo__photo {
+  @include media-mobile {
+    display: none;
+  }
+}
+
+.promo__title {
+  @include media-mobile {
+    @include font($size: 4.5rem, $height: 4.5rem, $weight: 700);
+  }
+}
+
+.promo__text {
+  @include media-mobile {
+    @include font($size: 2.4rem, $height: 2.4rem, $weight: 600);
+  }
+}

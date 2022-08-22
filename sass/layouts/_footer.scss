@@ -33,3 +33,9 @@
   height: 35px;
   cursor: pointer;
 }
+
+.logo-school {
+  @include media-mobile {
+    display: none;
+  }
+}

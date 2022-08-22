@@ -22,3 +22,10 @@
 .about__item {
   margin-left: 30px;
 }
+
+.about__wrap ul {
+  @include media-mobile {
+    width: 100%;
+    column-count: 1;
+  }
+}

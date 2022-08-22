@@ -7,3 +7,15 @@
   user-select: none;
 }
 
+.header {
+  @include media-mobile {
+    height: 95px;
+    align-items: center;
+  }
+}
+
+.navigation {
+  @include media-mobile {
+    display: none;
+  }
+}

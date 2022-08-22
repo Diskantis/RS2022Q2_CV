@@ -459,8 +459,50 @@ h2 {
   float: left;
 }
 
+@media (max-width: 360px) {
+  .aside {
+    float: none;
+  }
+}
+
+.hamburger__line, .hamburger:after, .hamburger:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+  height: 3px;
+}
+
+.hamburger {
+  display: none;
+  position: relative;
+  width: 31px;
+  height: 25px;
+}
+@media (max-width: 360px) {
+  .hamburger {
+    display: inline-block;
+    justify-content: right;
+  }
+}
+.hamburger:before {
+  top: 0;
+  left: 0;
+}
+.hamburger:after {
+  bottom: 0;
+  left: 0;
+}
+
+.hamburger__line {
+  top: calc(50% - 1.5px);
+  left: 0;
+}
+
 .wrapper {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: auto;
 }
 
@@ -493,6 +535,19 @@ h2 {
   background-color: gray;
   padding: 10px 0;
   user-select: none;
+}
+
+@media (max-width: 360px) {
+  .header {
+    height: 95px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .navigation {
+    display: none;
+  }
 }
 
 .footer {
@@ -531,6 +586,12 @@ h2 {
 .logo-school {
   height: 35px;
   cursor: pointer;
+}
+
+@media (max-width: 360px) {
+  .logo-school {
+    display: none;
+  }
 }
 
 .promo {
@@ -572,6 +633,30 @@ h2 {
   font-weight: 600;
   font-size: 4.4rem;
   line-height: 4.4rem;
+}
+
+@media (max-width: 360px) {
+  .promo__photo {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .promo__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .promo__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+  }
 }
 
 .contact h2 {
@@ -623,6 +708,7 @@ h2 {
 }
 
 .contact_location a, .contact_phone a, .contact_email a, .contact_discord a, .contact_telegram a, .contact_git a {
+  width: 100%;
   color: #ffffff;
   text-decoration-line: none;
   cursor: pointer;
@@ -654,6 +740,13 @@ h2 {
 
 .about__item {
   margin-left: 30px;
+}
+
+@media (max-width: 360px) {
+  .about__wrap ul {
+    width: 100%;
+    column-count: 1;
+  }
 }
 
 .skills__content {
@@ -786,6 +879,12 @@ h2 {
 
 .education__item a {
   color: #ffffff;
+}
+
+@media (max-width: 360px) {
+  .education ul {
+    margin-left: 30px;
+  }
 }
 
 .languages__content {

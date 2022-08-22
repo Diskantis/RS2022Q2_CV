@@ -11,3 +11,9 @@
 .education__item a {
   color: $color-light;
 }
+
+.education ul {
+  @include media-mobile {
+    margin-left: 30px;
+  }
+}

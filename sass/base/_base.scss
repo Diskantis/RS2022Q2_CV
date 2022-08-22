@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  max-width: 1440px;
+  max-width: $content-width;
   margin: auto;
   color: $color-light;
   background-color: #383838;
@@ -34,3 +34,8 @@ h2 {
   float: left;
 }
 
+.aside {
+  @include media-mobile {
+    float: none;
+  }
+}
