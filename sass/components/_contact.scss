@@ -1,0 +1,52 @@
+.contact h2 {
+  margin: 0 0 15px;
+}
+
+.contact_header {
+  width: 85px;
+  @include font($size: 1.6rem, $height: 2.1rem, $weight: 600);
+  margin-right: 10px;
+}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+
+.contact_location {
+  background-image: url("../img/icons/cont-map.svg");
+}
+
+.contact_phone {
+  background-image: url("../img/icons/cont-phone.svg");
+}
+
+.contact_email {
+  background-image: url("../img/icons/cont-email.svg");
+}
+
+.contact_discord {
+  background-image: url("../img/icons/cont-discord.svg");
+}
+
+.contact_telegram {
+  background-image: url("../img/icons/cont-telegram.svg");
+}
+
+.contact_git {
+  background-image: url("../img/icons/cont-github.svg");
+}
+
+.contact_location a, .contact_phone a, .contact_email a, .contact_discord a, .contact_telegram a, .contact_git a {
+  width: 100%;
+  color: $color-light;
+  text-decoration-line: none;
+  cursor: pointer;
+}
+

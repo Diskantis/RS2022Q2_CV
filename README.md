@@ -1,2 +1,2 @@
-# rsschool-cv
-https://Diskantis.github.io/rsschool-cv/cv
+# rsschool-cv-html
+https://Diskantis.github.io/rsschool-cv/

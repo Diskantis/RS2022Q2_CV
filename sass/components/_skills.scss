@@ -1,0 +1,72 @@
+.skills__content {
+  display: block;
+}
+
+.skills-rs__content {
+  margin-left: 40px;
+}
+
+.skills__item {
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  @include font($size: 1.6rem, $height: 2.1rem, $weight: 600);
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+
+.skills_rs-school {
+  background-image: url("../img/icons/skill-rsschool.png");
+}
+
+.skills_html {
+  background-image: url("../img/icons/skill-html.svg");
+}
+
+.skills_css {
+  background-image: url("../img/icons/skill-css.svg");
+}
+
+.skills_javascript {
+  background-image: url("../img/icons/skill-javascript.svg");
+}
+
+.skills_git {
+  background-image: url("../img/icons/cont-github.svg");
+}
+
+.skills_figma {
+  background-image: url("../img/icons/skill-figma.svg");
+}
+
+.skills_vscode {
+  background-image: url("../img/icons/skill-vscode.svg");
+}
+
+.skills_webstorm {
+  background-image: url("../img/icons/skill-webstorm.svg");
+}
+
+.skills_sap {
+  background-image: url("../img/icons/skill-sap.svg");
+}
+
+.skills_python {
+  background-image: url("../img/icons/skill-python.svg");
+}
+
+.skills_sqlite {
+  background-image: url("../img/icons/skill-sqlite.jpg");
+}
+
+.skills_pyqt {
+  min-height: 33px;
+  background-image: url("../img/icons/skill-pyqt.svg");
+}
+
+.skills_pycharm {
+  background-image: url("../img/icons/skill-pycharm.svg");
+}

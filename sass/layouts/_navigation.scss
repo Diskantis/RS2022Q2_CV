@@ -1,0 +1,19 @@
+.navigation {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  @include font ($size: 1.6rem, $height: 2.1rem);
+  letter-spacing: 2px;
+}
+
+.navigation__link a {
+  color: $color-light;
+  padding: 0 23px;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  cursor: pointer;
+  &:hover {
+    color: $color-hover;
+    @extend %transition;
+  }
+}
