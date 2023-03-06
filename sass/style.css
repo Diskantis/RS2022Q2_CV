@@ -456,6 +456,7 @@ h2 {
 
 .aside {
   width: 30%;
+  height: 1010px;
   float: left;
 }
 
@@ -519,7 +520,7 @@ h2 {
 
 .navigation__link a {
   color: #ffffff;
-  padding: 0 23px;
+  padding: 0 10px;
   text-transform: uppercase;
   text-decoration-line: none;
   cursor: pointer;
@@ -535,6 +536,10 @@ h2 {
   background-color: gray;
   padding: 10px 0;
   user-select: none;
+}
+
+.header__navigation {
+  width: 58%;
 }
 
 @media (max-width: 360px) {
@@ -830,7 +835,7 @@ h2 {
 }
 
 .code__block {
-  margin-bottom: -20px;
+  margin-bottom: -40px;
 }
 
 .code__pre {
@@ -863,6 +868,42 @@ h2 {
   color: #F4CE4F;
 }
 
+.projects {
+  column-count: 2;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+}
+
+.projects__title {
+  width: 100%;
+}
+
+.courses__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+}
+
+.projects ul {
+  margin-left: 30px;
+  list-style-type: disc;
+  line-height: 1.6;
+}
+
+.projects__item a {
+  color: #ffffff;
+  text-decoration-line: none;
+  cursor: pointer;
+}
+
+@media (max-width: 360px) {
+  .projects ul {
+    margin-left: 30px;
+  }
+}
+
 .education__title {
   font-style: normal;
   font-weight: 600;
@@ -870,8 +911,12 @@ h2 {
   line-height: 2.1rem;
 }
 
+.education h2 {
+  margin-top: 0;
+}
+
 .education ul {
-  margin-left: 470px;
+  margin-left: 460px;
   margin-bottom: 22px;
   list-style-type: disc;
   line-height: 1.6;

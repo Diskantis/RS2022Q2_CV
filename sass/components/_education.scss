@@ -1,8 +1,13 @@
 .education__title {
   @include font($size: 1.6rem, $height: 2.1rem, $weight: 600);
 }
+
+.education h2 {
+  margin-top: 0;
+}
+
 .education ul {
-  margin-left: 470px;
+  margin-left: 460px;
   margin-bottom: 22px;
   list-style-type: disc;
   line-height: 1.6;

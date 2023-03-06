@@ -6,6 +6,9 @@
   padding: 10px 0;
   user-select: none;
 }
+.header__navigation {
+  width: 58%;
+}
 
 .header {
   @include media-mobile {
